@@ -1,0 +1,9 @@
+# 두 수를 띄어쓰기 단위로 입력받아서 왼쪽이 더 크면 >, 오른쪽이 더 크면 <, 같으면 == 출력
+
+a, b = map(int, input().split())
+if a>b:
+    print('>')
+elif a<b:
+    print('<')
+elif a==b:
+    print('==')
